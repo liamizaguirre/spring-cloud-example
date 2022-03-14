@@ -1,0 +1,4 @@
+server:
+  por: $(PORT:8889)
+ 
+ message: configuration custom con spring cloud config!

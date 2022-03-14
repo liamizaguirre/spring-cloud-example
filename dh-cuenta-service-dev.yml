@@ -1,0 +1,4 @@
+server:
+  por: $(PORT:9999)
+ 
+ message: Consumer configuration server is alive por DEV!

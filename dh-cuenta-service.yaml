@@ -1,4 +1,4 @@
 server:
-  port: ${PORT:8889}
+  port: 8889
  
  message: configuration custom con spring cloud config!

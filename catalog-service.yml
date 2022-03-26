@@ -1,0 +1,25 @@
+spring:
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+    show-sql: false
+  datasource:
+    url: jdbc:mysql://localhost:3306/catalog
+    username: root
+    password: root
+
+  sql:
+    init:
+      dataLocations: classpath:/catalog-service.sql
+server:
+    port: 8082
+eureka:
+  client:
+    fetchRegistry: true
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka

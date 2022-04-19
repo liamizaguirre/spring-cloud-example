@@ -14,7 +14,7 @@ spring:
 
   sql:
     init:
-      dataLocations: classpath:/movies-service.sql
+      dataLocations: classpath:/movies
 server:
     port: 8081
 eureka:

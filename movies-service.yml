@@ -15,6 +15,16 @@ spring:
   sql:
     init:
       dataLocations: classpath:/movie_service.sql
+      
+   rabbitmq:
+    username: guest
+    password: guest
+    host: localhost
+    port: 5672
+
+queue:
+  movie:
+    name: MovieQueue
 server:
     port: 8081
 eureka:

@@ -24,8 +24,8 @@ spring:
     port: 5672
 
 queue:
-  series:
-    name: serieQueue
+  catalog:
+    name: catalogQueue
 
 server:
     port: 8082
